@@ -1957,6 +1957,11 @@ header.two {
 
 }
 
+.btn_div {
+    width: 90%;
+    margin: 0 auto;
+}
+
 /*-------------            Service page        -------------*/
 .about-text a {
     margin-top: 30px;
@@ -2582,15 +2587,15 @@ ul.food-dishes li {
 .pricing-table-cards {
     position: relative;
     overflow: hidden;
-    padding: 30px;
+    padding-bottom: 30px;
     border-radius: 15px;
 }
 
 .pricing-table-cards img {
-    position: absolute;
-    left: -29%;
-    border: 10px solid white;
-    border-radius: 97px;
+    position: relative;
+    /* border: 10px solid white; */
+    /* border-radius: 90px; */
+    width: 100%;
 }
 
 .pricing-table-cards h6 {
@@ -2609,8 +2614,8 @@ ul.food-dishes li {
 }
 
 .pricing-table-cards-pric {
-    margin-left: 175px;
-    margin-top: 20px;
+    padding: 30px;
+    width: 100%;
 }
 
 .pricing-table-cards-pric h4 {
@@ -2634,6 +2639,7 @@ ul.food-dishes li {
 
 .pricing-table-cards p {
     padding-top: 60px;
+    padding: 30px;
 }
 
 .pricing-plan-list h5 i {
@@ -2641,8 +2647,9 @@ ul.food-dishes li {
 }
 
 .pricing-plan-list {
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding: 30px;
+
+
 }
 
 .pricing-plan-list h5 {

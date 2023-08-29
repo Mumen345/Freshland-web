@@ -286,7 +286,7 @@
     }
 
     .pricing-table-cards img {
-        left: -47%;
+        /* left: -47%; */
     }
 
     .pricing-table-cards-pric h4 {
@@ -294,7 +294,8 @@
     }
 
     .pricing-table-cards-pric {
-        margin-left: 119px;
+        width: 100%;
+        /* margin-left: 119px; */
     }
 
     .pricing-table-cards h6 {
@@ -602,11 +603,12 @@
     }
 
     .pricing-table-cards img {
-        left: -33%;
+        /* left: -33%; */
     }
 
     .pricing-table-cards-pric {
-        margin-left: 159px;
+        width: 100%;
+        /* margin-left: 159px; */
     }
 
     .pricing-table-cards {
@@ -850,11 +852,11 @@
     }
 
     .pricing-table-cards img {
-        left: -19%;
+        /* left: -19%; */
     }
 
     .pricing-table-cards-pric h3 {
-        width: 40%;
+        width: 100%;
     }
 
     .hero-section.about .restaurant .nice-select {
@@ -1082,7 +1084,7 @@
     }
 
     .pricing-table-cards img {
-        left: -26%;
+        /* left: -26%; */
     }
 
     .dish {
@@ -1442,7 +1444,7 @@
     }
 
     .pricing-table-cards img {
-        left: -31%;
+        /* left: -31%; */
     }
 
     .pricing-table-cards-pric h3 {
@@ -1580,11 +1582,12 @@
     }
 
     .pricing-table-cards img {
-        left: -47%;
+        /* left: -47%; */
     }
 
     .pricing-table-cards-pric {
-        margin-left: 115px;
+        width: 100%;
+        margin-left: 0;
     }
 
     .join-img-blog:before {
@@ -1635,11 +1638,12 @@
     }
 
     .pricing-table-cards img {
-        left: -52%;
+        /* left: -52%; */
     }
 
     .pricing-table-cards-pric {
-        margin-left: 115px;
+        width: 100%;
+        margin-left: 0;
     }
 
     .our-team:before {

@@ -4032,6 +4032,105 @@ li.menu-item-has-children.active {
     background: #ffffff;
 }
 
-a {
-    text-decoration: none !important;
+.accordion-wrapper {
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.accordion {
+    width: 100%;
+    color: white;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 1px solid #E4E4E4;
+    width: 80%;
+    margin: 20px auto;
+}
+
+section {
+    width: 100%;
+    margin: 80px auto;
+    max-width: 1500px;
+}
+
+.accordion:last-child {
+    margin-bottom: 0;
+}
+
+.accordion-label {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 14px;
+    background: #ffffff;
+    cursor: pointer;
+    font-size: 18px !important;
+    color: #59595e;
+}
+
+/* .accordion-label:hover {
+    background: #000000;
+} */
+.accordion-label::after {
+    content: "\276F";
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.accordion-content {
+    max-height: 0;
+    padding: 0 16px;
+    color: #59595e !important;
+    background: #ffffff;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.accordion-content p {
+    margin: 0;
+    color: #59595e;
+    font-size: 16px;
+    line-height: 34px;
+}
+
+input:checked+.accordion-label {
+    background: #f29f05;
+    color: #ffffff;
+}
+
+input:checked+.accordion-label::after {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+input:checked~.accordion-content {
+    max-height: 100vh;
+    padding: 16px;
+}
+
+@media screen and (max-width: 1080px) {
+    section {
+        width: 90%;
+        margin: 10% auto;
+        max-width: 1500px;
+    }
+
+    .accordion {
+        width: 100%;
+        color: white;
+        overflow: hidden;
+        border-radius: 12px;
+        border: 1px solid #E4E4E4;
+        width: 100%;
+        margin: 20px auto;
+    }
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0;
 }

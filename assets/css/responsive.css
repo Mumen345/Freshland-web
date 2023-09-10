@@ -704,6 +704,10 @@
 }
 
 @media(max-width: 993px) {
+    .check_list_div {
+        width: 100%;
+    }
+
     .error-page p {
         width: 90%;
     }
@@ -973,6 +977,10 @@
 
 @media(max-width: 768px) {
 
+    .check_list_div {
+        width: 100%;
+    }
+
     .error-page form input[type="text"],
     .mobile-nav,
     .menu-inner {
@@ -1216,6 +1224,10 @@
 }
 
 @media(max-width: 576px) {
+    .check_list_div {
+        width: 100% !important;
+    }
+
     .error-page img {
         width: 100%;
     }

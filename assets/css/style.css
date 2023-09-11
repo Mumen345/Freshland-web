@@ -21,7 +21,8 @@ p {
 }
 
 a:hover {
-    color: #ffffff;
+    color: none;
+    text-decoration: none;
 }
 
 h1 {

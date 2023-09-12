@@ -4103,10 +4103,20 @@ input:checked~.accordion-content {
     width: 80%;
 }
 
+.logo_div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 50px auto;
+}
+
 @media screen and (max-width: 1080px) {
     section {
-        width: 90%;
-        margin: 10% auto;
+        /* width: 90%; */
+        margin: 0 auto;
         max-width: 1500px;
     }
 

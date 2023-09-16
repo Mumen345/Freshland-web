@@ -209,6 +209,7 @@ header {
     padding: 30px 0;
     width: 100%;
     z-index: 1;
+
 }
 
 /*------------------------        navbar end      --------------------------*/
@@ -580,7 +581,7 @@ a.button-2.non {
 }
 
 .count-time {
-    display: flex;
+    /* display: flex; */
     padding: 50px;
     box-shadow: 0px -1px 30px 4px rgba(0, 0, 0, 0.05);
     -webkit-box-shadow: 0px -1px 30px 4px rgba(0, 0, 0, 0.05);
@@ -2941,16 +2942,22 @@ li.hide-button h6 i {
 }
 
 /*-------------          contacts   page       ---------------*/
+.show {
+    display: block;
+}
+
 .address {
     padding: 20px;
     border-radius: 10px;
     margin-top: 40px;
+
 }
 
 .address h6 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     margin: 0;
+
 }
 
 .address h5 {
